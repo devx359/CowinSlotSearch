@@ -36,6 +36,7 @@ public class CowinApi1 {
 
 	@Test
 	public void search_kolkata() {
+		System.out.println(System.getProperty("check"));
 		System.out.println("Search by District-Kolkata API call >>>>>>");
 		test = reports.createTest("Search by District-Kolkata");
 		RestAssured.baseURI = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public";
